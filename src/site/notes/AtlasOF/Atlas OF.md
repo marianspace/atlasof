@@ -10,7 +10,13 @@ Cartografías de otras formas, otros recorridos, otras lecturas
 
 ---
 ## Últimas entradas
+| Entrada                                      |
+| -------------------------------------------- |
+| [[AtlasOF/Entradas/Propósito\|Propósito]] |
+| [[AtlasOF/Entradas/Quien Soy\|Quien Soy]] |
+| [[AtlasOF/Atlas OF\|Atlas OF]]            |
 
+{ .block-language-dataview}
 
 
 ---
