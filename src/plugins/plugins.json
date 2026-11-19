@@ -61,7 +61,7 @@
       "installedVersion": "1.1.0",
       "installedRef": "v1.1.0",
       "installedAt": "2026-11-19T19:51:20.144Z",
-      "enabled": true,
+      "enabled": false,
       "files": [
         "src/plugins/image-lightbox/README.md",
         "src/plugins/image-lightbox/garden-plugin.json",
