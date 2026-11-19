@@ -8,8 +8,12 @@ Cartografías de otras formas, otros recorridos, otras lecturas
 
 ---
 ## Últimas entradas
-| Entrada |
-| ------- |
+|                                    | Obra                                     |                                    |
+| ---------------------------------- | ---------------------------------------- | ---------------------------------- |
+| anillo de algo bajado de pinterest | [[AtlasOF/Entradas/1 1 1 1\|1 1 1 1]] | anillo de algo bajado de pinterest |
+| anillo de algo bajado de pinterest | [[AtlasOF/Entradas/1 1 1\|1 1 1]]     | anillo de algo bajado de pinterest |
+| anillo de algo bajado de pinterest | [[AtlasOF/Entradas/1 1\|1 1]]         | anillo de algo bajado de pinterest |
+| anillo de algo bajado de pinterest | [[AtlasOF/Entradas/1\|1]]             | anillo de algo bajado de pinterest |
 
 { .block-language-dataview}
 
