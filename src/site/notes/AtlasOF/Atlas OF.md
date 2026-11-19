@@ -10,14 +10,15 @@ Cartografías de otras formas, otros recorridos, otras lecturas
 
 ---
 ## Últimas entradas
-| Entrada                                      |
-| -------------------------------------------- |
-| [[AtlasOF/Entradas/Propósito\|Propósito]] |
-| [[AtlasOF/Entradas/Quien Soy\|Quien Soy]] |
-| [[AtlasOF/Atlas OF\|Atlas OF]]            |
+| Entrada                                  |
+| ---------------------------------------- |
+| [[AtlasOF/Entradas/1 1 1 1\|1 1 1 1]] |
+| [[AtlasOF/Entradas/1 1 1\|1 1 1]]     |
+| [[AtlasOF/Entradas/1 1\|1 1]]         |
+| [[AtlasOF/Entradas/1\|1]]             |
 
 { .block-language-dataview}
 
 
 ---
-[[AtlasOF/Entradas/Propósito\|Propósito]] - Mapa - [[Quien soy \|Quien soy ]]
+[[AtlasOF/Propósito\|Propósito]] - Mapa - [[AtlasOF/Quien Soy\|Quien Soy]]
