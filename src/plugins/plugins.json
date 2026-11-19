@@ -87,7 +87,7 @@
       "installedVersion": "1.0.0",
       "installedRef": "v1.0.0",
       "installedAt": "2026-11-19T18:47:25.491Z",
-      "enabled": true,
+      "enabled": false,
       "files": [
         "src/plugins/random-note-button/README.md",
         "src/plugins/random-note-button/garden-plugin.json",
