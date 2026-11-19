@@ -9,7 +9,20 @@
         "showOnHome": false,
         "timestampFormat": "MMM dd, yyyy h:mm a",
         "dateFormat": "MMM dd, yyyy"
-      }
+      },
+      "order": 50
+    },
+    "dg-filetree": {
+      "order": 10
+    },
+    "dg-link-preview": {
+      "order": 20
+    },
+    "dg-search": {
+      "order": 30
+    },
+    "dg-math": {
+      "order": 40
     }
   }
 }
