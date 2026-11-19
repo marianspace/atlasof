@@ -13,4 +13,4 @@ Nuevas ingresos
 
 
 ---
-[[Propósito\|Propósito]] - Mapa - Quien soy 
+[[AtlasOF/Entradas/Propósito\|Propósito]] - Mapa - [[Quien soy \|Quien soy ]]
