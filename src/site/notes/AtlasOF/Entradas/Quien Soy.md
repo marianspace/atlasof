@@ -1,5 +1,5 @@
 ---
-{"dg-show-local-graph":true,"dg-enable-search":true,"dg-hide":false,"dg-note-icon":true,"dg-content-classes":true,"created":"2026-11-19","tags":[],"dg-publish":true,"permalink":"/atlas-of/entradas/quien-soy/","contentClasses":"","dgShowLocalGraph":true,"dgEnableSearch":true,"dgPassFrontmatter":true,"noteIcon":true,"dg-note-properties":{"created":"2026-11-19","tags":[]}}
+{"dg-show-local-graph":true,"dg-enable-search":true,"dg-hide":false,"dg-note-icon":true,"dg-content-classes":true,"created":"2026-11-19","tags":[],"dg-publish":true,"permalink":"/atlas-of/entradas/quien-soy/","contentClasses":"","dgShowLocalGraph":true,"dgEnableSearch":true,"dgPassFrontmatter":true,"dg-note-properties":{"created":"2026-11-19","tags":[]}}
 ---
 
 

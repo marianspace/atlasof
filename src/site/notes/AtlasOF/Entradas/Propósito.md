@@ -1,5 +1,5 @@
 ---
-{"dg-show-local-graph":false,"dg-enable-search":true,"dg-hide":false,"dg-note-icon":null,"dg-content-classes":null,"created":"2026-11-19","tags":[],"dg-publish":true,"permalink":"/atlas-of/entradas/proposito/","dgEnableSearch":true,"dgPassFrontmatter":true,"noteIcon":null,"dg-note-properties":{"created":"2026-11-19","tags":[]}}
+{"dg-show-local-graph":false,"dg-enable-search":true,"dg-hide":false,"dg-note-icon":null,"dg-content-classes":null,"created":"2026-11-19","tags":[],"dg-publish":true,"permalink":"/atlas-of/entradas/proposito/","dgEnableSearch":true,"dgPassFrontmatter":true,"dg-note-properties":{"created":"2026-11-19","tags":[]}}
 ---
 
 Soy una persona multipotencial, que comenzó su carrera en curaduría de arte pensando en un proyecto editorial.
