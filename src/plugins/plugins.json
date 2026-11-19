@@ -180,7 +180,7 @@
       "installedVersion": "1.0.1",
       "installedRef": "v1.0.1",
       "installedAt": "2026-11-19T18:51:13.768Z",
-      "enabled": false,
+      "enabled": true,
       "files": [
         "src/plugins/light-dark-mode/README.md",
         "src/plugins/light-dark-mode/assets/default-theme-light.css",
