@@ -1,13 +1,33 @@
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+    /* Atlas OF — papel y cartografía */
+    background-color: #F5F2E9;
+    color: #303633;
+
+    /* Enlaces */
+    a {
+        color: #205253;
+        text-decoration-color: #A5B5AA;
+        text-underline-offset: 3px;
+
+        &:hover {
+            color: #52766E;
+        }
+    }
+
+    /* Títulos */
+    h1, h2, h3, h4 {
+        color: #173F40;
+        font-weight: 500;
+    }
+
+    /* Separadores */
+    hr {
+        border-color: #D8D8CC;
+    }
+
+    /* Selección de texto */
+    ::selection {
+        background-color: #C8D8CE;
+        color: #173F40;
+    }
 }
