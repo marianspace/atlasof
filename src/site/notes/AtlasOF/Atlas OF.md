@@ -3,12 +3,13 @@
 ---
 
 
-Atlas OF
+# Atlas OF
 
 Otras formas de Mirar, Ver, experimentar
+Cartografías de otras formas, otros recorridos, otras lecturas 
 
 ---
-Nuevas ingresos
+## Últimas entradas
 
 
 
