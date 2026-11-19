@@ -13,7 +13,8 @@
       "order": 50
     },
     "dg-filetree": {
-      "order": 10
+      "order": 10,
+      "enabled": false
     },
     "dg-link-preview": {
       "order": 20
@@ -66,6 +67,19 @@
         "src/plugins/image-lightbox/garden-plugin.json",
         "src/plugins/image-lightbox/styles/lightbox.scss",
         "src/plugins/image-lightbox/templates/lightbox.njk"
+      ]
+    },
+    "moc-nav": {
+      "repo": "oleeskild/garden-plugin-moc-nav",
+      "installedVersion": "1.0.1",
+      "installedRef": "v1.0.1",
+      "installedAt": "2026-11-19T18:46:58.781Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/moc-nav/README.md",
+        "src/plugins/moc-nav/garden-plugin.json",
+        "src/plugins/moc-nav/styles/moc-nav.scss",
+        "src/plugins/moc-nav/templates/moc-nav.njk"
       ]
     }
   }
