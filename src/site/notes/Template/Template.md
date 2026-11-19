@@ -1,5 +1,5 @@
 ---
-{"created":null,"dg-show-local-graph":true,"dg-enable-search":true,"dg-hide":false,"dg-content-classes":null,"dg-publish":true,"tags":[],"permalink":"/template/template/","dgShowLocalGraph":true,"dgEnableSearch":true,"dgPassFrontmatter":true,"dg-note-properties":{"created":null,"tags":[]}}
+{"created":null,"dg-show-local-graph":true,"dg-enable-search":true,"dg-hide":false,"dg-content-classes":null,"dg-publish":true,"type":null,"tags":[],"permalink":"/template/template/","dgShowLocalGraph":true,"dgEnableSearch":true,"dgPassFrontmatter":true,"dg-note-properties":{"created":null,"type":null,"tags":[]}}
 ---
 
 

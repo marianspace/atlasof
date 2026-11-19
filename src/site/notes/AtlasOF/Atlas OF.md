@@ -3,19 +3,13 @@
 ---
 
 
-# Atlas OF
-
 Otras formas de Mirar, Ver, experimentar
 Cartografías de otras formas, otros recorridos, otras lecturas 
 
 ---
 ## Últimas entradas
-| Entrada                                  |
-| ---------------------------------------- |
-| [[AtlasOF/Entradas/1 1 1 1\|1 1 1 1]] |
-| [[AtlasOF/Entradas/1 1 1\|1 1 1]]     |
-| [[AtlasOF/Entradas/1 1\|1 1]]         |
-| [[AtlasOF/Entradas/1\|1]]             |
+| Entrada |
+| ------- |
 
 { .block-language-dataview}
 
