@@ -11,23 +11,20 @@ Cartografías de otras formas, otros recorridos, otras lecturas
 ```base
 views:
   - type: cards
-    name: Recientes
-    limit: 4
+    name: últimas entradas
     filters:
       and:
-        - file.ext == "md"
+        - type == "entrada"
+    order:
+      - file.name
+      - resumen
     sort:
       - property: file.mtime
         direction: DESC
-    order:
-      - file.name
-      - note.resumen
+    limit: 6
     image: note.cover
-    imageFit: cover
-    imageAspectRatio: 0.65
-
-
-
+    imageAspectRatio: 0.45
+    cardSize: 200
 
 ```
 
