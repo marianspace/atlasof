@@ -3,12 +3,19 @@
         <div class="navbar-inner">
             <a href="/" style="text-decoration: none;">
                 {% if meta.siteLogoPath %}
-                    <img class="site-logo" src="{{meta.siteLogoPath}}" alt="{{meta.siteName}}">
+                    <img class="site-logo" src="{{meta.siteLogoPath}}" alt="Atlas Of">
                 {% else %}
-                    <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
+                    <h1 style="margin: 15px !important;">Atlas Of</h1>
                 {% endif %}
             </a>
         </div>
+
+        <div class="mi-menu-superior">
+            <a href="/">Inicio</a>
+            <a href="/atlas-of/entradas/">Entradas</a>
+            <a href="/sobre-mi/">Sobre mí</a>
+        </div>
+
         <div class="navbar-actions">
             {% set slotName = "navbar.actions" %}{% include "components/pluginSlot.njk" %}
             {% include "components/pagePanelButton.njk" %}
