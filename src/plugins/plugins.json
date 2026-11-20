@@ -24,7 +24,7 @@
     },
     "dg-math": {
       "order": 40,
-      "enabled": false
+      "enabled": true
     },
     "giscus-comments": {
       "repo": "oleeskild/garden-plugin-giscus-comments",
