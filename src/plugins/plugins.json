@@ -153,23 +153,6 @@
         "scope": "content"
       }
     },
-    "tag-nav": {
-      "repo": "oleeskild/garden-plugin-tag-nav",
-      "installedVersion": "1.0.0",
-      "installedRef": "v1.0.0",
-      "installedAt": "2026-11-19T18:48:51.721Z",
-      "enabled": true,
-      "files": [
-        "src/plugins/tag-nav/README.md",
-        "src/plugins/tag-nav/garden-plugin.json",
-        "src/plugins/tag-nav/index.js",
-        "src/plugins/tag-nav/styles/tag-nav.scss",
-        "src/plugins/tag-nav/templates/tag-nav.njk"
-      ],
-      "settings": {
-        "untaggedLabel": "Atlas"
-      }
-    },
     "share-qr": {
       "repo": "palol/garden-plugin-share-qr",
       "installedVersion": "1.0.2",
