@@ -165,7 +165,10 @@
         "src/plugins/tag-nav/index.js",
         "src/plugins/tag-nav/styles/tag-nav.scss",
         "src/plugins/tag-nav/templates/tag-nav.njk"
-      ]
+      ],
+      "settings": {
+        "untaggedLabel": "Atlas"
+      }
     },
     "share-qr": {
       "repo": "palol/garden-plugin-share-qr",
