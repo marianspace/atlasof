@@ -88,20 +88,6 @@
         "src/plugins/random-note-button/templates/button.njk"
       ]
     },
-    "recently-tended": {
-      "repo": "oleeskild/garden-plugin-recently-tended",
-      "installedVersion": "1.0.0",
-      "installedRef": "v1.0.0",
-      "installedAt": "2026-11-19T18:48:07.167Z",
-      "enabled": true,
-      "files": [
-        "src/plugins/recently-tended/README.md",
-        "src/plugins/recently-tended/garden-plugin.json",
-        "src/plugins/recently-tended/index.js",
-        "src/plugins/recently-tended/styles/list.scss",
-        "src/plugins/recently-tended/templates/list.njk"
-      ]
-    },
     "related-notes": {
       "repo": "oleeskild/garden-plugin-related-notes",
       "installedVersion": "1.0.0",
