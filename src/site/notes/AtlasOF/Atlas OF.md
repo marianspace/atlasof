@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"dg-show-local-graph":false,"dg-enable-search":true,"dg-hide":false,"dg-note-icon":null,"dg-content-classes":null,"created":"2026-11-19","tags":["gardenEntry"],"permalink":"/atlas-of/atlas-of/","dgEnableSearch":true,"dgPassFrontmatter":true,"ctime":"2026-11-19T14:23:10.632-03:00","mtime":"2026-11-19T20:18:33.211-03:00","dg-note-properties":{"created":"2026-11-19","tags":["gardenEntry"]}}
+{"dg-publish":true,"permalink":"/atlas-of/atlas-of/","tags":["gardenEntry"],"dgEnableSearch":true,"ctime":"2026-11-19T14:23:10.632-03:00","mtime":"2026-11-19T20:18:33.211-03:00","dg-note-properties":{"created":"2026-11-19","tags":["gardenEntry"]}}
 ---
 
 
