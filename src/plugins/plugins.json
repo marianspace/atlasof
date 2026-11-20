@@ -76,22 +76,6 @@
         "src/plugins/image-lightbox/templates/lightbox.njk"
       ]
     },
-    "moc-nav": {
-      "repo": "oleeskild/garden-plugin-moc-nav",
-      "installedVersion": "1.0.1",
-      "installedRef": "v1.0.1",
-      "installedAt": "2026-11-19T18:46:58.781Z",
-      "enabled": false,
-      "files": [
-        "src/plugins/moc-nav/README.md",
-        "src/plugins/moc-nav/garden-plugin.json",
-        "src/plugins/moc-nav/styles/moc-nav.scss",
-        "src/plugins/moc-nav/templates/moc-nav.njk"
-      ],
-      "settings": {
-        "heading": "Map of Content"
-      }
-    },
     "random-note-button": {
       "repo": "oleeskild/garden-plugin-random-note-button",
       "installedVersion": "1.0.0",
