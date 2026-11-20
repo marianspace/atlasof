@@ -217,7 +217,7 @@
       "settings": {
         "followSystem": true,
         "showButton": true,
-        "themeModes": "light",
+        "themeModes": "auto",
         "buttonLabel": "Toggle light and dark mode"
       }
     },
