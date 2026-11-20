@@ -158,7 +158,7 @@
       "installedVersion": "1.0.0",
       "installedRef": "v1.0.0",
       "installedAt": "2026-11-19T18:48:51.721Z",
-      "enabled": false,
+      "enabled": true,
       "files": [
         "src/plugins/tag-nav/README.md",
         "src/plugins/tag-nav/garden-plugin.json",
