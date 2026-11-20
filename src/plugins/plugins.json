@@ -121,7 +121,11 @@
         "src/plugins/related-notes/index.js",
         "src/plugins/related-notes/styles/related.scss",
         "src/plugins/related-notes/templates/related.njk"
-      ]
+      ],
+      "settings": {
+        "heading": "Notas relacionadas",
+        "count": 4
+      }
     },
     "rounded-images": {
       "repo": "oleeskild/garden-plugin-rounded-images",
