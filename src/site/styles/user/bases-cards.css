@@ -1,0 +1,17 @@
+/* Hace que la tarjeta sea el contenedor de referencia */
+.bases-cards-item {
+  position: relative;
+}
+
+/* Extiende el enlace del título sobre toda la tarjeta (incluida la portada) */
+.bases-cards-item a.internal-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Mantiene el cursor de mano sobre toda la tarjeta */
+.bases-cards-item:hover {
+  cursor: pointer;
+}
