@@ -1,17 +1,22 @@
-/* Hace que la tarjeta sea el contenedor de referencia */
-.bases-cards-item {
+/* 1. Convierte toda la tarjeta en el área de referencia */
+.obsidian-base-card {
   position: relative;
 }
 
-/* Extiende el enlace del título sobre toda la tarjeta (incluida la portada) */
-.bases-cards-item a.internal-link::after {
+/* 2. Extiende el enlace del título sobre toda la tarjeta (cubriendo la imagen y el texto) */
+.obsidian-base-card-title a.internal-link::after {
   content: "";
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
-/* Mantiene el cursor de mano sobre toda la tarjeta */
-.bases-cards-item:hover {
+/* 3. Muestra el cursor de enlace en toda la tarjeta y evita que otros visores capturen la foto */
+.obsidian-base-card:hover {
   cursor: pointer;
 }
+
+.obsidian-base-card-image img {
+  pointer-events: none;
+}
+
