@@ -197,7 +197,13 @@
         "src/plugins/light-dark-mode/templates/button.njk",
         "src/plugins/light-dark-mode/templates/head.njk",
         "src/plugins/light-dark-mode/tests/themeModes.test.cjs"
-      ]
+      ],
+      "settings": {
+        "followSystem": true,
+        "showButton": true,
+        "themeModes": "light",
+        "buttonLabel": "Toggle light and dark mode"
+      }
     },
     "sidebar-controls": {
       "repo": "oleeskild/garden-plugin-sidebar-controls",
