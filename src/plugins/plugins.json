@@ -14,7 +14,7 @@
     },
     "dg-filetree": {
       "order": 10,
-      "enabled": false
+      "enabled": true
     },
     "dg-link-preview": {
       "order": 20
