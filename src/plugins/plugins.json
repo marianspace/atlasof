@@ -138,7 +138,11 @@
         "src/plugins/rounded-images/garden-plugin.json",
         "src/plugins/rounded-images/screenshot.png",
         "src/plugins/rounded-images/templates/style.njk"
-      ]
+      ],
+      "settings": {
+        "radius": 8,
+        "scope": "content"
+      }
     },
     "tag-nav": {
       "repo": "oleeskild/garden-plugin-tag-nav",
