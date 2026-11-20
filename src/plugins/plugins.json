@@ -58,7 +58,7 @@
       ],
       "settings": {
         "placement": "below",
-        "height": "calc(100vh - 8rem)",
+        "height": "100px",
         "showLabels": false,
         "hideSidebar": false
       }
