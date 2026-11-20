@@ -223,7 +223,14 @@
         "src/plugins/sidebar-controls/templates/floating.njk",
         "src/plugins/sidebar-controls/templates/footer.njk",
         "src/plugins/sidebar-controls/templates/head.njk"
-      ]
+      ],
+      "settings": {
+        "toggleFileTree": false,
+        "toggleSidebar": false,
+        "buttonPosition": "floating",
+        "sidebarPosition": "content",
+        "remember": true
+      }
     }
   }
 }
