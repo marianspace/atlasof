@@ -42,7 +42,7 @@
       "repo": "oleeskild/garden-plugin-home-graph",
       "installedVersion": "1.0.0",
       "installedRef": "v1.0.0",
-      "installedAt": "2026-11-19T18:46:30.685Z",
+      "installedAt": "2026-11-20T22:31:07.066Z",
       "enabled": true,
       "files": [
         "src/plugins/home-graph/LICENSE",
