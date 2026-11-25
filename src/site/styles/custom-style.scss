@@ -90,3 +90,60 @@ body.home .header h1 {
   border-color: #78918A !important;
   transform: translateY(-2px);
 }
+/* === 3. BOTONES DE ENLACES (> [!link]) === */
+.callout[data-callout="link"] {
+  background-color: #173F40 !important; /* Verde profundo */
+  border: 1px solid #173F40 !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  margin-bottom: 12px !important;
+  min-height: 50px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease-in-out !important;
+  cursor: pointer !important;
+}
+
+.callout[data-callout="link"] .callout-icon {
+  display: none !important;
+}
+
+.callout[data-callout="link"] .callout-title,
+.callout[data-callout="link"] .callout-content {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Fuerza el texto color Papel en cualquier etiqueta interna (a, span, p) */
+.callout[data-callout="link"] * {
+  color: #F5F2E9 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  text-align: center !important;
+}
+
+.callout[data-callout="link"] a {
+  display: block !important;
+  width: 100% !important;
+  padding: 14px 20px !important;
+}
+
+/* Quitar el ícono de enlace externo */
+.callout[data-callout="link"] a::after,
+.callout[data-callout="link"] .external-link {
+  display: none !important;
+  content: none !important;
+}
+
+.callout[data-callout="link"]:hover {
+  background-color: #78918A !important; /* Verde salvia */
+  border-color: #78918A !important;
+  transform: translateY(-2px);
+}
+
