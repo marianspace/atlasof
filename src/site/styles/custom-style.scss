@@ -48,7 +48,10 @@
     .callout[data-callout="info"] .callout-icon {
         display: none !important;
         }
-    
+
+    body.home .header h1 { display: none !important; 
+         }
+
     /*nav.filetree-sidebar {
         display: none !important;
         }  */ 
