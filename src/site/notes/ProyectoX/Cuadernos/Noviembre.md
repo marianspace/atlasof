@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyecto-x/cuadernos/noviembre/","dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-20T19:59:46.009-03:00","ctime":"2026-11-20T19:59:46.009-03:00","mtime":"2026-11-25T18:19:24.992-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":[]}}
+{"dg-publish":true,"permalink":"/proyecto-x/cuadernos/noviembre/","dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-20T19:59:46.009-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":[]}}
 ---
 
 
