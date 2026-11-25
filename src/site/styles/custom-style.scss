@@ -2,6 +2,61 @@ body.home .header h1 {
      display: none !important; 
       }
 
+/* Ocultar el menú lateral original si ya no lo quieres */
+nav.filetree-sidebar {
+  display: none !important;
+}
+
+/* Estilos de la nueva barra superior */
+.mi-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: var(--background-primary);
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: 14px 24px;
+}
+
+.mi-navbar-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.mi-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--text-normal);
+}
+
+.mi-links {
+  display: flex;
+  gap: 20px;
+}
+
+.mi-links a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.mi-links a:hover {
+  color: var(--text-accent);
+}
+
+/* Centrar el contenido principal ahora que no hay barra izquierda */
+main.content {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 /* Barra superior en lugar de menú lateral en escritorio */
 @media (min-width: 1401px) {
   nav.filetree-sidebar {
