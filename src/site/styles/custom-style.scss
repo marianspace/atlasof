@@ -1,74 +1,92 @@
-body.home .header h1 { 
-     display: none !important; 
-      }
-
-/* === 2. CENTRAR LA LANDING === */
-.content {
-  max-width: 540px !important;
-  margin: 0 auto !important;
-  padding: 2rem 1.2rem !important;
+/* === 1. PALETA EDITORIAL (Papel, Gris cálido, Verde profundo, Salvia, Arena) === */
+html, body, body.theme-light, body.theme-dark {
+  background-color: #F5F2E9 !important;      /* Papel */
+  --background-primary: #F5F2E9 !important;
+  --background-secondary: #E5E1D5 !important;    /* Gris cálido */
+  --text-normal: #173F40 !important;             /* Verde profundo */
+  --text-muted: #78918A !important;              /* Verde salvia */
+  --text-accent: #173F40 !important;
+  --interactive-accent: #173F40 !important;
+  --background-modifier-border: #B5A98D !important; /* Arena */
 }
 
-/* === 3. ARREGLAR TEXTO DEL DESPLEGABLE E ÍCONOS DE BOTONES === */
+/* Ocultar el título automático solo en la página de inicio */
+body.home .header h1 {
+  display: none !important;
+}
+
+/* === 2. ACORDEÓN DESPLEGABLE (> [!info]-) === */
+.callout[data-callout="info"] {
+  background-color: #E5E1D5 !important; /* Gris cálido */
+  border: 1px solid #B5A98D !important; /* Arena */
+  border-radius: 12px !important;
+  padding: 12px 16px !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.callout[data-callout="info"] .callout-icon {
+  display: none !important;
+}
+
 .callout[data-callout="info"] .callout-title-inner {
-  color: #173F40 !important; /* Asegura que el título sea visible */
+  color: #173F40 !important;
   font-weight: 600 !important;
 }
 
-/* Quitar el cuadradito con flecha de los enlaces externos dentro de los botones */
+/* === 3. BOTONES DE ENLACES (> [!link]) === */
+.callout[data-callout="link"] {
+  background-color: #173F40 !important; /* Verde profundo */
+  border: 1px solid #173F40 !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  margin-bottom: 12px !important;
+  min-height: 48px !important;
+  transition: all 0.2s ease-in-out !important;
+  cursor: pointer !important;
+}
+
+/* Ocultar solo el ícono de enlace del callout */
+.callout[data-callout="link"] .callout-icon {
+  display: none !important;
+}
+
+/* Hacer que todo el botón sea clicable y el texto siempre sea visible */
+.callout[data-callout="link"] .callout-title {
+  padding: 0 !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+.callout[data-callout="link"] .callout-title-inner,
+.callout[data-callout="link"] p {
+  width: 100% !important;
+  display: block !important;
+  color: #F5F2E9 !important;
+  text-align: center !important;
+  margin: 0 !important;
+}
+
+.callout[data-callout="link"] a {
+  display: block !important;
+  width: 100% !important;
+  padding: 14px 20px !important;
+  color: #F5F2E9 !important; /* Papel */
+  text-align: center !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+}
+
+/* Quitar el cuadradito de enlace externo dentro de los botones */
 .callout[data-callout="link"] a::after,
 .callout[data-callout="link"] .external-link {
   display: none !important;
   content: none !important;
 }
 
-/* === BOTONES DE ENLACES (6 botones) === */
-    .callout[data-callout="link"] {
-        background-color: #173F40 !important; /* Verde profundo */
-        border: 1px solid #173F40 !important;
-        border-radius: 12px !important;
-        padding: 0 !important;
-        margin-bottom: 12px !important;
-        transition: all 0.2s ease-in-out !important;
-        cursor: pointer !important;
-        }
-    
-    /* Ocultar el ícono por defecto del callout */
-    .callout[data-callout="link"] .callout-icon,
-        .callout[data-callout="link"] .callout-content {
-            display: none !important;
-        }
-    
-    /* Hacer que todo el botón sea clicable */
-        .callout[data-callout="link"] .callout-title {
-            padding: 0 !important;
-            display: block !important;
-        }
- 
-    .callout[data-callout="link"] .callout-title-inner {
-        width: 100% !important;
-        display: block !important;
-        }
-        
-    .callout[data-callout="link"] a {
-        display: block !important;
-        width: 100% !important;
-        padding: 14px 20px !important;
-        color: #F5F2E9 !important; /* Texto color Papel */
-        text-align: center !important;
-        text-decoration: none !important;
-        font-weight: 500 !important;
-        letter-spacing: 0.3px !important;
-        }
-        
-    /* Efecto al pasar el mouse (Hover) */
-    .callout[data-callout="link"]:hover {
-        background-color: #78918A !important; /* Verde salvia */
-        border-color: #78918A !important;
-        transform: translateY(-2px);
-        }
-    
-    /* Ocultar solo el ícono "i" del acordeón, dejando la flecha de desplegar */
-    .callout[data-callout="info"] .callout-icon {
-        display: none !important;
+/* Efecto al pasar el mouse (Hover) */
+.callout[data-callout="link"]:hover {
+  background-color: #78918A !important; /* Verde salvia */
+  border-color: #78918A !important;
+  transform: translateY(-2px);
 }
