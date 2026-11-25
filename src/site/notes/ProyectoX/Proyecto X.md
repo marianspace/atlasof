@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyecto-x/proyecto-x/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-24T16:32:39.033-03:00","ctime":"2026-11-24T16:32:39.033-03:00","mtime":"2026-11-24T21:05:45.538-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":["gardenEntry"]}}
+{"dg-publish":true,"permalink":"/proyecto-x/proyecto-x/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-24T16:32:39.033-03:00","ctime":"2026-11-24T16:32:39.033-03:00","mtime":"2026-11-24T21:09:48.202-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":["gardenEntry"]}}
 ---
 
 > # [!]  ProyectoX
@@ -10,13 +10,8 @@
 >
 ---
 
-[!link] [Proyecto Cadaver X](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcadaverx%2Finicio&sa=D&sntz=1&usg=AOvVaw0JOnVaUp_xlTFElcNEJ1c-)
-[!link] [Oráculo]([https://www.google.com/url?q=https%3A%2F%2Fmarianspace.github.io%2Foraculox%2Foraculo.html&sa=D&sntz=1&usg=AOvVaw25uocNWIl3f2eNp8wwvnu](https://marianspace.github.io/oraculox/index.html)
->
+>[!link] [Proyecto Cadaver X](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcadaverx%2Finicio&sa=D&sntz=1&usg=AOvVaw0JOnVaUp_xlTFElcNEJ1c-)
+
+>[!link] [Oráculo]([https://www.google.com/url?q=https%3A%2F%2Fmarianspace.github.io%2Foraculox%2Foraculo.html&sa=D&sntz=1&usg=AOvVaw25uocNWIl3f2eNp8wwvnu](https://marianspace.github.io/oraculox/index.html)
+
 >[!link] [Videopoética](https://www.youtube.com/playlist?list=PLdCrH2RWzoI2O-9-ojzBlg0IF9iPFNHZo)
->
->[!link] [Proyecto Cadaver X](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcadaverx%2Finicio&sa=D&sntz=1&usg=AOvVaw0JOnVaUp_xlTFElcNEJ1c-)
->
->[!link] [Proyecto Cadaver X](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcadaverx%2Finicio&sa=D&sntz=1&usg=AOvVaw0JOnVaUp_xlTFElcNEJ1c-)
->
->[!link] [Proyecto Cadaver X](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcadaverx%2Finicio&sa=D&sntz=1&usg=AOvVaw0JOnVaUp_xlTFElcNEJ1c-)
