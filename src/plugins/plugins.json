@@ -142,10 +142,10 @@
         "src/plugins/light-dark-mode/tests/themeModes.test.cjs"
       ],
       "settings": {
-        "followSystem": true,
-        "showButton": true,
-        "themeModes": "auto",
-        "buttonLabel": "Toggle light and dark mode"
+        "followSystem": false,
+        "showButton": false,
+        "themeModes": "light",
+        "buttonLabel": ""
       }
     },
     "sidebar-controls": {
