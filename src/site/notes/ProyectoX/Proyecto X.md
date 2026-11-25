@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyecto-x/proyecto-x/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-24T16:32:39.033-03:00","ctime":"2026-11-24T16:32:39.033-03:00","mtime":"2026-11-24T22:52:07.239-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":["gardenEntry"]}}
+{"dg-publish":true,"permalink":"/proyecto-x/proyecto-x/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-24T16:32:39.033-03:00","ctime":"2026-11-24T16:32:39.033-03:00","mtime":"2026-11-25T18:17:24.641-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":["gardenEntry"]}}
 ---
 
 > # [!info]- ProyectoX

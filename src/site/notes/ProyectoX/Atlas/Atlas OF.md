@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyecto-x/atlas/atlas-of/","dgEnableSearch":true,"created":"2026-11-19T14:23:10.632-03:00","ctime":"2026-11-19T14:23:10.632-03:00","mtime":"2026-11-24T16:34:09.034-03:00","dg-note-properties":{"created":"2026-11-19","tags":[]}}
+{"dg-publish":true,"permalink":"/proyecto-x/atlas/atlas-of/","dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-19T14:23:10.632-03:00","ctime":"2026-11-19T14:23:10.632-03:00","mtime":"2026-11-25T18:19:51.813-03:00","dg-note-properties":{"created":"2026-11-19","type":null,"cover":null,"resumen":null,"tags":[]}}
 ---
 
 
