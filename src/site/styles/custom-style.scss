@@ -57,6 +57,16 @@ body {
             color: var(--link-color-hover);
         }
     }
+
+        /* === PALETA EDITORIAL & ESTILO LANDING === */
+    body.theme-light, body.theme-dark {
+            --background-primary: #F5F2E9 !important;      /* Papel */
+            --background-secondary: #E5E1D5 !important;    /* Gris cálido */
+            --text-normal: #173F40 !important;             /* Verde profundo */
+            --text-muted: #78918A !important;              /* Verde salvia */
+            --interactive-accent: #173F40 !important;
+            --background-modifier-border: #B5A98D !important; /* Arena */
+    }
     
     h1, h2, h3, h4 {
         color: #173F40;
@@ -71,17 +81,7 @@ body {
         background-color: #C8D8CE;
         color: #173F40;
     }
-        
-    /* === PALETA EDITORIAL & ESTILO LANDING === */
-    body.theme-light, body.theme-dark {
-            --background-primary: #F5F2E9 !important;      /* Papel */
-            --background-secondary: #E5E1D5 !important;    /* Gris cálido */
-            --text-normal: #173F40 !important;             /* Verde profundo */
-            --text-muted: #78918A !important;              /* Verde salvia */
-            --interactive-accent: #173F40 !important;
-            --background-modifier-border: #B5A98D !important; /* Arena */
-        }
-        
+               
     /* Centrar contenido tipo tarjeta móvil */
     .content {
         max-width: 540px !important;
