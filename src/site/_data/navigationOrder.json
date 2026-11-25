@@ -1,21 +1,6 @@
 {
   "/": [
-    "ProyectoX"
-  ],
-  "/ProyectoX": [
     "Proyecto X",
-    "Atlas",
-    "Propósito",
-    "Quien Soy"
-  ],
-  "/ProyectoX/Atlas": [
-    "Entradas",
     "Atlas OF"
-  ],
-  "/ProyectoX/Atlas/Entradas": [
-    "1",
-    "1 1",
-    "1 1 1",
-    "1 1 1 1"
   ]
 }
