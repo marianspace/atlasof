@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyecto-x/","pinned":true,"tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-24T16:32:39.033-03:00","ctime":"2026-11-24T16:32:39.033-03:00","mtime":"2026-11-25T20:16:54.253-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":["gardenEntry"]}}
+{"dg-publish":true,"permalink":"/proyecto-x/","pinned":true,"tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-24T16:32:39.033-03:00","ctime":"2026-11-24T16:32:39.033-03:00","mtime":"2026-11-25T20:37:23.006-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":["gardenEntry"]}}
 ---
 
 > # [!info]- Proyecto X
@@ -14,7 +14,7 @@
 
 >[!link] [[ProyectoX/Cuadernos/Noviembre\|Cuaderno de Noviembre]]
 
->[!link] [Proyecto Cadaver X](https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcadaverx%2Finicio&sa=D&sntz=1&usg=AOvVaw0JOnVaUp_xlTFElcNEJ1c-)
+>[!link] [Proyecto Cadaver X](https://sites.google.com/view/cadaverx/inicio)
 
 >[!link] [Oráculo](https://marianspace.github.io/oraculox/index.html)
 
