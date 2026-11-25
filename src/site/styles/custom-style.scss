@@ -148,4 +148,9 @@ body {
         border-color: #78918A !important;
         transform: translateY(-2px);
         }
+    
+    /* Ocultar solo el ícono "i" del acordeón, dejando la flecha de desplegar */
+    .callout[data-callout="info"] .callout-icon {
+        display: none !important;
+        }
     }
