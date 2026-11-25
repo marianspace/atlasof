@@ -96,4 +96,22 @@ nav.filetree-sidebar .search-button {
 body {
   grid-template-columns: 190px 1fr !important;
 }
+/* === UNIFICAR EL FONDO DE TODA LA PÁGINA (Elimina la franja blanca intermedia) === */
+html,
+body,
+body.theme-light,
+body.theme-dark,
+.content,
+main.content,
+.container {
+  background: #F5F2E9 !important;      /* Papel en todo el fondo */
+  background-color: #F5F2E9 !important;
+}
+
+/* Asegurar que la barra finita conserve su Gris cálido #E5E1D5 por encima */
+nav.filetree-sidebar {
+  background: #E5E1D5 !important;
+  background-color: #E5E1D5 !important;
+  border-right: 1px solid #B5A98D !important;
+}
 
