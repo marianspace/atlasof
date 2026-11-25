@@ -1,4 +1,7 @@
- /* === BOTONES DE ENLACES (6 botones) === */
+body.home .header h1 { 
+     display: none !important; 
+      }
+/* === BOTONES DE ENLACES (6 botones) === */
     .callout[data-callout="link"] {
         background-color: #173F40 !important; /* Verde profundo */
         border: 1px solid #173F40 !important;
@@ -48,10 +51,7 @@
     .callout[data-callout="info"] .callout-icon {
         display: none !important;
         }
-   
-      body.home .header h1 { display: none !important; 
-         }
-
+     
     /*nav.filetree-sidebar {
         display: none !important;
         }  */ 
