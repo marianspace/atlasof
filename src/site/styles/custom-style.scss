@@ -93,4 +93,7 @@ nav.filetree-sidebar .search-button {
   background-color: #E5E1D5 !important;
   border-bottom: 1px solid #B5A98D !important;
 }
+body {
+  grid-template-columns: 190px 1fr !important;
+}
 
