@@ -125,6 +125,41 @@ main.content {
   }
 }
 
+/* === 1. OCULTAR BARRA LATERAL DE ARCHIVOS === */
+.filetree-sidebar,
+nav.filetree-sidebar,
+.sidebar-container,
+#floating-control {
+  display: none !important;
+}
+
+/* Asegurar que el fondo Papel ocupe toda la pantalla sin franja blanca */
+html, body {
+  background-color: #F5F2E9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* === 2. CENTRAR LA LANDING === */
+.content {
+  max-width: 540px !important;
+  margin: 0 auto !important;
+  padding: 2rem 1.2rem !important;
+}
+
+/* === 3. ARREGLAR TEXTO DEL DESPLEGABLE E ÍCONOS DE BOTONES === */
+.callout[data-callout="info"] .callout-title-inner {
+  color: #173F40 !important; /* Asegura que el título sea visible */
+  font-weight: 600 !important;
+}
+
+/* Quitar el cuadradito con flecha de los enlaces externos dentro de los botones */
+.callout[data-callout="link"] a::after,
+.callout[data-callout="link"] .external-link {
+  display: none !important;
+  content: none !important;
+}
+
 /* === BOTONES DE ENLACES (6 botones) === */
     .callout[data-callout="link"] {
         background-color: #173F40 !important; /* Verde profundo */
