@@ -148,4 +148,23 @@ main.content,
   border-color: #78918A !important;
   transform: translateY(-2px);
 }
+/* Eliminar cualquier reserva de espacio lateral en el contenedor principal */
+body > div,
+.container,
+.main-wrapper {
+  display: block !important;
+  grid-template-columns: 1fr !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Ocultar el botón flotante de barra lateral abajo a la derecha */
+.sidebar-toggle,
+[x-data] nav.filetree-sidebar,
+nav.filetree-sidebar {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+}
 
