@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/proyecto-x/proyecto-x/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-24T16:32:39.033-03:00","ctime":"2026-11-24T16:32:39.033-03:00","mtime":"2026-11-24T22:46:27.006-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":["gardenEntry"]}}
+{"dg-publish":true,"permalink":"/proyecto-x/proyecto-x/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"created":"2026-11-24T16:32:39.033-03:00","ctime":"2026-11-24T16:32:39.033-03:00","mtime":"2026-11-24T22:47:46.433-03:00","dg-note-properties":{"created":null,"type":null,"cover":null,"resumen":null,"tags":["gardenEntry"]}}
 ---
 
-<font color="#000000">> # [!info]- ProyectoX</font>
+> # [!info]- ProyectoX
 <font color="#000000">>Todo empieza como una idea. Cuando pasa a la acción, se convierte en proyecto. Puede avanzar rápido o muy lento; a veces es uno solo, otras, si sos como yo, se multiplican hasta perder la cuenta.</font>
 <font color="#000000">>Después de intentar ordenarlos, dividirlos o evitarlos, los acepté. Para ser una misma hay que juntar todas las dimensiones. Así nació este lugar, sin número y sin nombre fijo: un Proyecto X.</font>
 <font color="#000000">>La X, la última letra del abecedario. El signo que tacha todo lo que tiene debajo y, al mismo tiempo, la incógnita a revelar en cada ecuación.</font>
