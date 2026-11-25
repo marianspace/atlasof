@@ -63,3 +63,36 @@ body.home .header h1 {
   border-color: #78918A !important;
   transform: translateY(-2px);
 }
+/* Integrar el menú lateral original a tu paleta sin romper su estructura */
+nav.filetree-sidebar,
+.navbar {
+  background-color: #E5E1D5 !important; /* Gris cálido */
+  border-color: #B5A98D !important;     /* Arena */
+}
+/* === BARRA LATERAL MÁS FINITA E INTEGRADA === */
+@media (min-width: 1401px) {
+  nav.filetree-sidebar {
+    width: 200px !important;       /* Más angosta (por defecto es ~250-280px) */
+    min-width: 200px !important;
+    padding: 16px 12px !important; /* Menos aire sobrante a los costados */
+    background-color: #E5E1D5 !important; /* Gris cálido */
+    border-right: 1px solid #B5A98D !important; /* Línea fina color Arena */
+  }
+
+  /* Hacer un poco más sutil el texto y el buscador de la barra */
+  nav.filetree-sidebar .filename,
+  nav.filetree-sidebar .foldername-wrapper {
+    font-size: 0.88rem !important;
+  }
+
+  nav.filetree-sidebar .search-button {
+    padding: 6px 10px !important;
+    font-size: 0.85rem !important;
+  }
+}
+
+/* En celular/ventana chica, integrar también la barrita superior */
+.navbar {
+  background-color: #E5E1D5 !important;
+  border-bottom: 1px solid #B5A98D !important;
+}
