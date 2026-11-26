@@ -116,4 +116,99 @@ body::after {
   display: none !important;
   content: none !important;
 }
+/* === FOOTER GLOBAL ESTILO EDITORIAL VERDE PROFUNDO === */
+.px-footer {
+  background-color: #173F40 !important; /* Verde profundo */
+  color: #F5F2E9 !important;            /* Papel */
+  border-top: 3px solid #B5A98D !important; /* Línea superior Arena */
+  padding: 3rem 1.5rem 1.5rem 1.5rem !important;
+  margin-top: 4rem !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  position: relative;
+  z-index: 10;
+}
+
+.px-footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.px-footer h3,
+.px-footer h4 {
+  color: #F5F2E9 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.75rem !important;
+  font-weight: 700 !important;
+}
+
+.px-footer p {
+  color: #E5E1D5 !important; /* Gris cálido */
+  font-size: 0.92rem !important;
+  line-height: 1.5 !important;
+}
+
+.px-footer ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.px-footer ul li {
+  margin-bottom: 0.5rem !important;
+}
+
+.px-footer a {
+  color: #E5E1D5 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+.px-footer a:hover {
+  color: #B5A98D !important; /* Arena al pasar el mouse */
+}
+
+.px-footer-socials {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #78918A;
+}
+
+/* Botón "Colaborar" dentro del footer */
+.px-footer-btn {
+  display: inline-block !important;
+  margin-top: 0.75rem !important;
+  padding: 10px 20px !important;
+  background-color: #B5A98D !important; /* Arena */
+  color: #173F40 !important;            /* Verde profundo */
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.px-footer-btn:hover {
+  background-color: #F5F2E9 !important; /* Papel */
+  color: #173F40 !important;
+}
+
+/* Barra inferior de copyright */
+.px-footer-bottom {
+  max-width: 900px;
+  margin: 2.5rem auto 0 auto;
+  padding-top: 1.2rem;
+  border-top: 1px solid #78918A !important; /* Verde salvia */
+  text-align: center;
+}
+
+.px-footer-bottom p {
+  font-size: 0.82rem !important;
+  color: #78918A !important;
+  margin: 0 !important;
+}
 
