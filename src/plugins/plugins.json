@@ -79,7 +79,7 @@
         "themeModes": "dark",
         "buttonLabel": "Toggle light and dark mode"
       },
-      "order": 20
+      "order": 10
     },
     "heading-folding": {
       "repo": "koltensaccount/garden-plugin-heading-folding",
@@ -100,7 +100,7 @@
         "src/plugins/heading-folding/styles/heading-folding.css",
         "src/plugins/heading-folding/tests/browser.test.cjs"
       ],
-      "order": 10
+      "order": 20
     },
     "related-notes": {
       "repo": "oleeskild/garden-plugin-related-notes",
