@@ -23,14 +23,14 @@
         "src/plugins/giscus-comments/garden-plugin.json",
         "src/plugins/giscus-comments/templates/comments.njk"
       ],
-      "order": 80
+      "order": 70
     },
     "dg-filetree": {
       "order": 60,
       "enabled": false
     },
     "dg-math": {
-      "order": 70
+      "order": 80
     },
     "dg-link-preview": {
       "order": 100
