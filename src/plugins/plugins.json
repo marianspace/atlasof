@@ -106,6 +106,19 @@
         "src/plugins/related-notes/styles/related.scss",
         "src/plugins/related-notes/templates/related.njk"
       ]
+    },
+    "moc-nav": {
+      "repo": "oleeskild/garden-plugin-moc-nav",
+      "installedVersion": "1.0.1",
+      "installedRef": "v1.0.1",
+      "installedAt": "2026-11-27T00:29:26.963Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/moc-nav/README.md",
+        "src/plugins/moc-nav/garden-plugin.json",
+        "src/plugins/moc-nav/styles/moc-nav.scss",
+        "src/plugins/moc-nav/templates/moc-nav.njk"
+      ]
     }
   }
 }
