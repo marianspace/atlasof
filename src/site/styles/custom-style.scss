@@ -66,15 +66,26 @@ body.home .header h1 {
   border-radius: 12px !important;
   padding: 12px 16px !important;
   margin-bottom: 1.5rem !important;
+  color: #173F40 !important;
 }
 
 .callout[data-callout="info"] .callout-icon {
   display: none !important;
 }
 
-.callout[data-callout="info"] .callout-title {
+.callout[data-callout="info"] .callout-title,
+.callout[data-callout="info"] .callout-title-inner {
   color: #173F40 !important;
   font-weight: 600 !important;
+  cursor: pointer !important;
+}
+
+/* Asegurar que el texto desplegable dentro de info sea visible y oscuro */
+.callout[data-callout="info"] .callout-content,
+.callout[data-callout="info"] .callout-content p,
+.callout[data-callout="info"] .callout-content li,
+.callout[data-callout="info"] .callout-content a {
+  color: #173F40 !important;
 }
 
 /* === BOTONES DE ENLACES (> [!link]) === */
@@ -86,31 +97,46 @@ body.home .header h1 {
   margin-bottom: 12px !important;
   transition: all 0.2s ease-in-out !important;
   cursor: pointer !important;
+  overflow: hidden !important;
 }
 
-.callout[data-callout="link"] .callout-icon,
-.callout[data-callout="link"] .callout-content {
+.callout[data-callout="link"] .callout-icon {
   display: none !important;
 }
 
-.callout[data-callout="link"] .callout-title {
+/* NO ocultamos .callout-content por si el enlace está en la segunda línea */
+.callout[data-callout="link"] .callout-title,
+.callout[data-callout="link"] .callout-content {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+.callout[data-callout="link"] .callout-title-inner,
+.callout[data-callout="link"] .callout-content p {
+  width: 100% !important;
+  margin: 0 !important;
   padding: 0 !important;
   display: block !important;
 }
 
-.callout[data-callout="link"] .callout-title-inner {
-  width: 100% !important;
-  display: block !important;
+/* Si hay un título vacío cuando el link está abajo, lo ocultamos */
+.callout[data-callout="link"] .callout-title:has(.callout-title-inner:empty) {
+  display: none !important;
 }
 
+/* Estilo del enlace (sea en el título o en el cuerpo) en color Papel claro */
 .callout[data-callout="link"] a {
   display: block !important;
   width: 100% !important;
   padding: 14px 20px !important;
+  color: #F5F2E9 !important;
   text-align: center !important;
   text-decoration: none !important;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
+  box-sizing: border-box !important;
 }
 
 .callout[data-callout="link"]:hover {
@@ -118,6 +144,7 @@ body.home .header h1 {
   border-color: #78918A !important;
   transform: translateY(-2px);
 }
+
 
 /* Integrar el menú lateral original a tu paleta sin romper su estructura */
 nav.filetree-sidebar,
