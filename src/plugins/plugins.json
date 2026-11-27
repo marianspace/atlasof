@@ -37,6 +37,22 @@
     },
     "dg-search": {
       "order": 30
+    },
+    "sidebar-controls": {
+      "repo": "oleeskild/garden-plugin-sidebar-controls",
+      "installedVersion": "1.0.0",
+      "installedRef": "v1.0.0",
+      "installedAt": "2026-11-27T00:25:20.387Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/sidebar-controls/README.md",
+        "src/plugins/sidebar-controls/garden-plugin.json",
+        "src/plugins/sidebar-controls/screenshot.png",
+        "src/plugins/sidebar-controls/styles/sidebar-controls.scss",
+        "src/plugins/sidebar-controls/templates/floating.njk",
+        "src/plugins/sidebar-controls/templates/footer.njk",
+        "src/plugins/sidebar-controls/templates/head.njk"
+      ]
     }
   }
 }
