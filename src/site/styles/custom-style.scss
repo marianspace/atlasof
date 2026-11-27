@@ -1,1 +1,38 @@
+/* Integrar el menú lateral original a tu paleta sin romper su estructura */
+nav.filetree-sidebar,
+.navbar {
+  background-color: #E5E1D5 !important; /* Gris cálido */
+  border-color: #B5A98D !important;     /* Arena */
+}
+/* === BARRA LATERAL MÁS ANGOSTA EN ESCRITORIO === */
+nav.filetree-sidebar {
+  width: 190px !important;
+  min-width: 190px !important;
+  max-width: 190px !important;
+  padding: 16px 10px !important;
+  background-color: #E5E1D5 !important; /* Gris cálido */
+  border-right: 1px solid #B5A98D !important; /* Borde Arena */
+  overflow-x: hidden !important; /* Evita que el contenido interno la ensanche */
+}
+
+/* Asegurar que lo de adentro respete ese ancho */
+nav.filetree-sidebar .filetree-wrapper,
+nav.filetree-sidebar .search-button {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Integrar también la barra superior en celular */
+.navbar {
+  background-color: #E5E1D5 !important;
+  border-bottom: 1px solid #B5A98D !important;
+}
+body {
+  grid-template-columns: 190px 1fr !important;
+}
+
+.callout[data-callout="link"] .callout-icon,
+.callout[data-callout="link"] .callout-content {
+  display: none !important;
 
