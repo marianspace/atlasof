@@ -52,7 +52,8 @@
       }
     },
     "dg-filetree": {
-      "order": 10
+      "order": 10,
+      "enabled": false
     },
     "dg-math": {
       "order": 20
