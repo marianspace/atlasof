@@ -52,10 +52,10 @@
       "order": 20
     },
     "dg-link-preview": {
-      "order": 30
+      "order": 40
     },
     "dg-search": {
-      "order": 40
+      "order": 30
     }
   }
 }
