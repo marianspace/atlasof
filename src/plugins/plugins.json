@@ -23,7 +23,7 @@
         "src/plugins/giscus-comments/garden-plugin.json",
         "src/plugins/giscus-comments/templates/comments.njk"
       ],
-      "order": 100
+      "order": 90
     },
     "dg-filetree": {
       "order": 60,
@@ -33,7 +33,7 @@
       "order": 70
     },
     "dg-link-preview": {
-      "order": 90
+      "order": 100
     },
     "dg-search": {
       "order": 80
