@@ -136,7 +136,13 @@
         "src/plugins/light-dark-mode/templates/button.njk",
         "src/plugins/light-dark-mode/templates/head.njk",
         "src/plugins/light-dark-mode/tests/themeModes.test.cjs"
-      ]
+      ],
+      "settings": {
+        "followSystem": false,
+        "showButton": false,
+        "themeModes": "light",
+        "buttonLabel": "Toggle light and dark mode"
+      }
     }
   }
 }
