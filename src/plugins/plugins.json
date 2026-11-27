@@ -10,7 +10,7 @@
         "timestampFormat": "MMM dd, yyyy h:mm a",
         "dateFormat": "MMM dd, yyyy"
       },
-      "order": 50
+      "order": 110
     },
     "giscus-comments": {
       "repo": "oleeskild/garden-plugin-giscus-comments",
@@ -23,20 +23,20 @@
         "src/plugins/giscus-comments/garden-plugin.json",
         "src/plugins/giscus-comments/templates/comments.njk"
       ],
-      "order": 60
+      "order": 100
     },
     "dg-filetree": {
-      "order": 10,
+      "order": 60,
       "enabled": false
     },
     "dg-math": {
-      "order": 20
+      "order": 70
     },
     "dg-link-preview": {
-      "order": 40
+      "order": 90
     },
     "dg-search": {
-      "order": 30
+      "order": 80
     },
     "sidebar-controls": {
       "repo": "oleeskild/garden-plugin-sidebar-controls",
@@ -52,7 +52,8 @@
         "src/plugins/sidebar-controls/templates/floating.njk",
         "src/plugins/sidebar-controls/templates/footer.njk",
         "src/plugins/sidebar-controls/templates/head.njk"
-      ]
+      ],
+      "order": 50
     },
     "light-dark-mode": {
       "repo": "oleeskild/garden-plugin-light-dark-mode",
@@ -77,7 +78,8 @@
         "showButton": false,
         "themeModes": "light",
         "buttonLabel": "Toggle light and dark mode"
-      }
+      },
+      "order": 20
     },
     "heading-folding": {
       "repo": "koltensaccount/garden-plugin-heading-folding",
@@ -97,7 +99,8 @@
         "src/plugins/heading-folding/scripts/check.cjs",
         "src/plugins/heading-folding/styles/heading-folding.css",
         "src/plugins/heading-folding/tests/browser.test.cjs"
-      ]
+      ],
+      "order": 10
     },
     "related-notes": {
       "repo": "oleeskild/garden-plugin-related-notes",
@@ -111,7 +114,8 @@
         "src/plugins/related-notes/index.js",
         "src/plugins/related-notes/styles/related.scss",
         "src/plugins/related-notes/templates/related.njk"
-      ]
+      ],
+      "order": 40
     },
     "moc-nav": {
       "repo": "oleeskild/garden-plugin-moc-nav",
@@ -127,7 +131,8 @@
       ],
       "settings": {
         "heading": "Map of Content"
-      }
+      },
+      "order": 30
     }
   }
 }
