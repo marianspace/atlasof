@@ -9,7 +9,8 @@
         "showOnHome": false,
         "timestampFormat": "MMM dd, yyyy h:mm a",
         "dateFormat": "MMM dd, yyyy"
-      }
+      },
+      "order": 50
     },
     "giscus-comments": {
       "repo": "oleeskild/garden-plugin-giscus-comments",
@@ -21,7 +22,8 @@
         "src/plugins/giscus-comments/README.md",
         "src/plugins/giscus-comments/garden-plugin.json",
         "src/plugins/giscus-comments/templates/comments.njk"
-      ]
+      ],
+      "order": 60
     },
     "home-graph": {
       "repo": "oleeskild/garden-plugin-home-graph",
@@ -40,7 +42,20 @@
         "src/plugins/home-graph/templates/homeGraph.njk",
         "src/plugins/home-graph/templates/homeGraphScript.njk",
         "src/plugins/home-graph/test/graph-data.node-test.mjs"
-      ]
+      ],
+      "order": 70
+    },
+    "dg-filetree": {
+      "order": 10
+    },
+    "dg-math": {
+      "order": 20
+    },
+    "dg-link-preview": {
+      "order": 30
+    },
+    "dg-search": {
+      "order": 40
     }
   }
 }
