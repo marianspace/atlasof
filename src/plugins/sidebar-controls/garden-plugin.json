@@ -50,7 +50,7 @@
         "content",
         "edge"
       ],
-      "default": "content",
+      "default": "edge",
       "env": "SIDEBAR_CONTROLS_SIDEBAR_POSITION"
     },
     {
