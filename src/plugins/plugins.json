@@ -66,7 +66,7 @@
       "repo": "oleeskild/garden-plugin-light-dark-mode",
       "installedVersion": "1.0.1",
       "installedRef": "v1.0.1",
-      "installedAt": "2026-11-27T00:25:55.042Z",
+      "installedAt": "2026-11-27T00:35:01.378Z",
       "enabled": true,
       "files": [
         "src/plugins/light-dark-mode/README.md",
