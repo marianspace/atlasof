@@ -27,7 +27,7 @@
     },
     "dg-filetree": {
       "order": 60,
-      "enabled": false
+      "enabled": true
     },
     "dg-math": {
       "order": 80
