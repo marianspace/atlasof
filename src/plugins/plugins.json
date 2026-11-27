@@ -23,7 +23,7 @@
         "src/plugins/giscus-comments/garden-plugin.json",
         "src/plugins/giscus-comments/templates/comments.njk"
       ],
-      "order": 90
+      "order": 80
     },
     "dg-filetree": {
       "order": 60,
@@ -36,7 +36,7 @@
       "order": 100
     },
     "dg-search": {
-      "order": 80
+      "order": 90
     },
     "sidebar-controls": {
       "repo": "oleeskild/garden-plugin-sidebar-controls",
