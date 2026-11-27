@@ -122,7 +122,11 @@
         "src/plugins/related-notes/styles/related.scss",
         "src/plugins/related-notes/templates/related.njk"
       ],
-      "order": 40
+      "order": 40,
+      "settings": {
+        "heading": "Notas",
+        "count": 4
+      }
     },
     "moc-nav": {
       "repo": "oleeskild/garden-plugin-moc-nav",
