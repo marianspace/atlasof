@@ -57,8 +57,8 @@
       "settings": {
         "toggleFileTree": true,
         "toggleSidebar": false,
-        "buttonPosition": "floating",
-        "sidebarPosition": "edge",
+        "buttonPosition": "corners",
+        "sidebarPosition": "content",
         "remember": true
       }
     },
