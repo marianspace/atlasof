@@ -53,7 +53,14 @@
         "src/plugins/sidebar-controls/templates/footer.njk",
         "src/plugins/sidebar-controls/templates/head.njk"
       ],
-      "order": 50
+      "order": 50,
+      "settings": {
+        "toggleFileTree": true,
+        "toggleSidebar": false,
+        "buttonPosition": "floating",
+        "sidebarPosition": "edge",
+        "remember": true
+      }
     },
     "light-dark-mode": {
       "repo": "oleeskild/garden-plugin-light-dark-mode",
