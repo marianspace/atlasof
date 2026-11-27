@@ -81,8 +81,8 @@
         "src/plugins/light-dark-mode/tests/themeModes.test.cjs"
       ],
       "settings": {
-        "followSystem": true,
-        "showButton": false,
+        "followSystem": false,
+        "showButton": true,
         "themeModes": "light",
         "buttonLabel": "Toggle light and dark mode"
       },
