@@ -1,9 +1,9 @@
-/* === 1. FORZAR MODO ÚNICO (ANULAR DARK/LIGHT MODE) === */
+/* === 1. FORZAR MODO ÚNICO (ANULAR DARK/LIGHT MODE) === 
 :root,
 body,
 body.theme-light,
 body.theme-dark{
-  color-scheme: dark !important;
+  color-scheme: dark !important;*/
 
   /* Fondos 
   --background-primary: #F5F2E9 !important;      /* Papel */
@@ -38,55 +38,9 @@ body.theme-dark{
   --code-normal: #173F40 !important;
   --blockquote-border-color: #B5A98D !important; */
 }
-/* Fondo general seguro sin tapar contenedores internos */
-html,
-body {
-  background-color: #F5F2E9 !important;
-  color: #173F40 !important;
-}
-
-/* Ocultar selector de tema (Sol/Luna) */
-.theme-toggle,
-button[aria-label*="theme" i],
-button[aria-label*="tema" i] {
-  display: none !important;
-}
-
-/* hasta aca body */
 /* Ocultar el título automático solo en la portada */
 body.home .header h1 {
   display: none !important;
-}
-
-/* === ARREGLO DEFINITIVO DE VISIBILIDAD DE ENLACES Y CALLOUTS === */
-
-/* 1. Asegurar que todos los enlaces internos normales sean visibles sobre fondo claro */
-a.internal-link,
-a.external-link {
-  color: #173F40 !important;
-}
-
-/* 2. Si el enlace está dentro de cualquier caja o callout oscuro (como tus botones) */
-[data-callout="link"] a,
-[data-callout="link"] a.internal-link,
-.callout[data-callout="link"] a,
-.callout[data-callout="link"] a.internal-link {
-  color: #F5F2E9 !important;
-  display: block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* 3. Si el acordeón (> [!info]-) tiene texto oculto o colapsado */
-[data-callout="info"],
-[data-callout="info"] summary,
-[data-callout="info"] .callout-title,
-[data-callout="info"] .callout-content,
-[data-callout="info"] p,
-[data-callout="info"] a {
-  color: #173F40 !important;
-  opacity: 1 !important;
-  visibility: visible !important;
 }
 
 /* === ACORDEÓN (> [!info]-) === */
@@ -96,26 +50,15 @@ a.external-link {
   border-radius: 12px !important;
   padding: 12px 16px !important;
   margin-bottom: 1.5rem !important;
-  color: #173F40 !important;
 }
 
 .callout[data-callout="info"] .callout-icon {
   display: none !important;
 }
 
-.callout[data-callout="info"] .callout-title,
-.callout[data-callout="info"] .callout-title-inner {
+.callout[data-callout="info"] .callout-title {
   color: #173F40 !important;
   font-weight: 600 !important;
-  cursor: pointer !important;
-}
-
-/* Asegurar que el texto desplegable dentro de info sea visible y oscuro */
-.callout[data-callout="info"] .callout-content,
-.callout[data-callout="info"] .callout-content p,
-.callout[data-callout="info"] .callout-content li,
-.callout[data-callout="info"] .callout-content a {
-  color: #173F40 !important;
 }
 
 /* === BOTONES DE ENLACES (> [!link]) === */
@@ -127,36 +70,23 @@ a.external-link {
   margin-bottom: 12px !important;
   transition: all 0.2s ease-in-out !important;
   cursor: pointer !important;
-  overflow: hidden !important;
 }
 
-.callout[data-callout="link"] .callout-icon {
-  display: none !important;
-}
-
-/* NO ocultamos .callout-content por si el enlace está en la segunda línea */
-.callout[data-callout="link"] .callout-title,
+.callout[data-callout="link"] .callout-icon,
 .callout[data-callout="link"] .callout-content {
-  padding: 0 !important;
-  margin: 0 !important;
-  display: block !important;
-  width: 100% !important;
-}
-
-.callout[data-callout="link"] .callout-title-inner,
-.callout[data-callout="link"] .callout-content p {
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  display: block !important;
-}
-
-/* Si hay un título vacío cuando el link está abajo, lo ocultamos */
-.callout[data-callout="link"] .callout-title:has(.callout-title-inner:empty) {
   display: none !important;
 }
 
-/* Estilo del enlace (sea en el título o en el cuerpo) en color Papel claro */
+.callout[data-callout="link"] .callout-title {
+  padding: 0 !important;
+  display: block !important;
+}
+
+.callout[data-callout="link"] .callout-title-inner {
+  width: 100% !important;
+  display: block !important;
+}
+
 .callout[data-callout="link"] a {
   display: block !important;
   width: 100% !important;
@@ -166,7 +96,6 @@ a.external-link {
   text-decoration: none !important;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
-  box-sizing: border-box !important;
 }
 
 .callout[data-callout="link"]:hover {
@@ -174,8 +103,6 @@ a.external-link {
   border-color: #78918A !important;
   transform: translateY(-2px);
 }
-
-
 /* Integrar el menú lateral original a tu paleta sin romper su estructura */
 nav.filetree-sidebar,
 .navbar {
@@ -324,4 +251,3 @@ body::after {
   color: #78918A !important;
   margin: 0 !important;
 }
-
