@@ -76,7 +76,7 @@
       "settings": {
         "followSystem": false,
         "showButton": false,
-        "themeModes": "light",
+        "themeModes": "dark",
         "buttonLabel": "Toggle light and dark mode"
       },
       "order": 20
