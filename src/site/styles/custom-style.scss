@@ -59,6 +59,37 @@ body.home .header h1 {
   display: none !important;
 }
 
+/* === ARREGLO DEFINITIVO DE VISIBILIDAD DE ENLACES Y CALLOUTS === */
+
+/* 1. Asegurar que todos los enlaces internos normales sean visibles sobre fondo claro */
+a.internal-link,
+a.external-link {
+  color: #173F40 !important;
+}
+
+/* 2. Si el enlace está dentro de cualquier caja o callout oscuro (como tus botones) */
+[data-callout="link"] a,
+[data-callout="link"] a.internal-link,
+.callout[data-callout="link"] a,
+.callout[data-callout="link"] a.internal-link {
+  color: #F5F2E9 !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* 3. Si el acordeón (> [!info]-) tiene texto oculto o colapsado */
+[data-callout="info"],
+[data-callout="info"] summary,
+[data-callout="info"] .callout-title,
+[data-callout="info"] .callout-content,
+[data-callout="info"] p,
+[data-callout="info"] a {
+  color: #173F40 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 /* === ACORDEÓN (> [!info]-) === */
 .callout[data-callout="info"] {
   background-color: #E5E1D5 !important;
