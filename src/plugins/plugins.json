@@ -83,7 +83,7 @@
       "settings": {
         "followSystem": false,
         "showButton": true,
-        "themeModes": "light",
+        "themeModes": "auto",
         "buttonLabel": "Toggle light and dark mode"
       },
       "order": 10
