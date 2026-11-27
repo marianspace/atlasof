@@ -43,7 +43,13 @@
         "src/plugins/home-graph/templates/homeGraphScript.njk",
         "src/plugins/home-graph/test/graph-data.node-test.mjs"
       ],
-      "order": 70
+      "order": 70,
+      "settings": {
+        "placement": "below",
+        "height": "calc(100vh - 8rem)",
+        "showLabels": false,
+        "hideSidebar": true
+      }
     },
     "dg-filetree": {
       "order": 10
