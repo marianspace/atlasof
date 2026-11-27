@@ -5,8 +5,8 @@ body.theme-dark,
 body.theme-light {
   color-scheme: light !important;
 
-  /* Fondos principales del Digital Garden */
-  --background-primary: #F5F2E9 !important;      /* Papel (fondo de lectura) */
+  /* Fondos principales */
+  --background-primary: #F5F2E9 !important;      /* Papel */
   --background-primary-alt: #E5E1D5 !important;  /* Gris cálido */
   --background-secondary: #E5E1D5 !important;    /* Sidebar y paneles */
   --background-secondary-alt: #DDD7C7 !important;
@@ -14,8 +14,8 @@ body.theme-light {
   --background-modifier-hover: rgba(181, 169, 141, 0.25) !important;
 
   /* Tipografía y jerarquía de textos */
-  --text-normal: #173F40 !important;             /* Verde profundo para lectura */
-  --text-muted: #546A66 !important;              /* Verde grisáceo oscuro (alto contraste) */
+  --text-normal: #173F40 !important;             /* Verde profundo */
+  --text-muted: #546A66 !important;              /* Verde grisáceo oscuro */
   --text-faint: #78918A !important;              /* Verde salvia */
   --text-accent: #173F40 !important;
   --text-accent-hover: #78918A !important;
@@ -39,30 +39,48 @@ body.theme-light {
   --blockquote-border-color: #B5A98D !important;
 }
 
-/* === 2. UNIFICAR ELEMENTOS QUE SUELEN QUEDARSE OSCUROS === */
+/* === 2. UNIFICAR FONDOS Y TEXTOS SIN OCULTAR LA PORTADA === */
 html,
 body,
-main,
 .content,
 .markdown-preview-view {
   background-color: #F5F2E9 !important;
   color: #173F40 !important;
 }
 
-/* Enlaces del contenido con subrayado sutil editorial */
-.markdown-preview-view a {
+/* Asegurar que los textos y párrafos de la portada sean visibles */
+.markdown-preview-view p,
+.markdown-preview-view li,
+.markdown-preview-view span,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4 {
+  color: #173F40 !important;
+}
+
+/* Enlaces normales (EXCLUYENDO tus botones > [!link] y tarjetas) */
+.markdown-preview-view a:not(.callout[data-callout="link"] a):not(.obsidian-base-card a) {
   color: #173F40 !important;
   text-decoration: underline !important;
   text-decoration-color: #B5A98D !important;
   text-underline-offset: 3px !important;
 }
 
-.markdown-preview-view a:hover {
+.markdown-preview-view a:not(.callout[data-callout="link"] a):not(.obsidian-base-card a):hover {
   color: #78918A !important;
   text-decoration-color: #78918A !important;
 }
 
-/* Buscador, grafo y panel derecho (Right Sidebar / TOC) */
+/* === 3. REFORZAR TEXTO BLANCO/PAPEL DENTRO DE TUS BOTONES === */
+.callout[data-callout="link"] a,
+.callout[data-callout="link"] a span,
+.callout[data-callout="link"] .callout-title-inner {
+  color: #F5F2E9 !important;
+  text-decoration: none !important;
+}
+
+/* Buscador, grafo y panel derecho */
 .search-button,
 .graph-view-container,
 .toc-container,
@@ -72,12 +90,13 @@ aside.right-sidebar {
   color: #173F40 !important;
 }
 
-/* Ocultar el botón de cambiar tema (Sol/Luna) si la plantilla lo incluye */
+/* Ocultar el botón de cambiar tema (Sol/Luna) */
 .theme-toggle,
 button[aria-label*="theme" i],
 button[aria-label*="tema" i] {
   display: none !important;
 }
+
 
 /* Ocultar el título automático solo en la portada */
 body.home .header h1 {
