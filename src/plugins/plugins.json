@@ -92,6 +92,20 @@
         "src/plugins/heading-folding/styles/heading-folding.css",
         "src/plugins/heading-folding/tests/browser.test.cjs"
       ]
+    },
+    "related-notes": {
+      "repo": "oleeskild/garden-plugin-related-notes",
+      "installedVersion": "1.0.0",
+      "installedRef": "v1.0.0",
+      "installedAt": "2026-11-27T00:28:57.555Z",
+      "enabled": true,
+      "files": [
+        "src/plugins/related-notes/README.md",
+        "src/plugins/related-notes/garden-plugin.json",
+        "src/plugins/related-notes/index.js",
+        "src/plugins/related-notes/styles/related.scss",
+        "src/plugins/related-notes/templates/related.njk"
+      ]
     }
   }
 }
